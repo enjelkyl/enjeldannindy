@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Kelompok</title>
+    <!-- Menghubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hiasan Latar Belakang -->
+    <div class="bg-decor">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <span class="floating-icon icon-1">✨</span>
+        <span class="floating-icon icon-2">🦋</span>
+        <span class="floating-icon icon-3">💖</span>
+        <span class="floating-icon icon-4">🌟</span>
+        <span class="floating-icon icon-5">🎨</span>
+        <span class="floating-icon icon-6">🌈</span>
+    </div>
+
+    <div class="container">
+        <!-- Judul Utama -->
+        <header>
+            <div class="header-ribbon">🎀 MONKEY SQUAD 🎀</div>
+            <h1 class="judul">✨ Biodata Kelompok ✨</h1>
+            <p class="subjudul">Kenal lebih dekat dengan anggota tim kami! 💕</p>
+        </header>
+
+        <!-- Bingkai Foto Bersama di Bawah Judul -->
+        <div class="bingkai-wrapper">
+            <div class="bingkai-utama">
+                <div class="washi-tape tape-left"></div>
+                <div class="washi-tape tape-right"></div>
+                <span class="frame-sticker sticker-1">🌈</span>
+                <span class="frame-sticker sticker-2">💖</span>
+                <span class="frame-sticker sticker-3">⭐</span>
+
+                <div class="img-shine">
+                    <!-- Ganti 'bersama.jpg' dengan foto kelompok kalian jika ada -->
+                    <img src="bareng.jpeg" alt="Foto Bersama Kelompok" id="foto-bersama">
+                </div>
+                <div class="caption-bingkai">📸 Our Best Memories Together ✨</div>
+            </div>
+        </div>
+
+        <div class="divider">
+            <span>🌸</span><span>✨</span><span>💖</span><span>✨</span><span>🌸</span>
+        </div>
+
+        <!-- Daftar Anggota Kelompok -->
+        <div class="daftar-anggota">
+            
+            <!-- Kartu Anggota 1: Angel -->
+            <div class="kartu kartu-1">
+                <span class="card-sticker">👑</span>
+                <div class="badge">✨ Anggota 1 ✨</div>
+                
+                <!-- Nama diklik untuk memunculkan foto di bingkai popup -->
+                <h2 class="nama-klik" onclick="bukaFoto('angel')" title="Klik untuk melihat foto">
+                    Angel Kayla Tofani 👆
+                </h2>
+                <p class="info">🎂 <strong>Tanggal Lahir:</strong> 2 September 2009</p>
+                <div class="zodiak-tag zodiak-1">♍ Zodiak: Virgo</div>
+                
+                <a href="https://www.instagram.com/angelkylaaaa/" target="_blank" rel="noopener noreferrer" class="btn-ig ig-1">
+                    <svg class="ig-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    <span>@angelkylaaaa</span>
+                </a>
+            </div>
+
+            <!-- Kartu Anggota 2: Gisela -->
+            <div class="kartu kartu-2">
+                <span class="card-sticker">🦋</span>
+                <div class="badge">✨ Anggota 2 ✨</div>
+                
+                <!-- Nama diklik untuk memunculkan foto di bingkai popup -->
+                <h2 class="nama-klik" onclick="bukaFoto('gisela')" title="Klik untuk melihat foto">
+                    Gisela Nindiyanika Kinantyasthi 👆
+                </h2>
+                <p class="info">🎂 <strong>Tanggal Lahir:</strong> 13 Mei 2010</p>
+                <div class="zodiak-tag zodiak-2">♉ Zodiak: Taurus</div>
+                
+                <a href="https://www.instagram.com/gsslandy/" target="_blank" rel="noopener noreferrer" class="btn-ig ig-2">
+                    <svg class="ig-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    <span>@gsslandy</span>
+                </a>
+            </div>
+
+        </div>
+
+        <footer class="footer-hiasan">
+            Made with by Angel & Gisela
+        </footer>
+    </div>
+
+    <!-- Modal / Popup Bingkai Foto saat Nama Diklik -->
+    <div id="modalFoto" class="modal" onclick="tutupFoto()">
+        <div class="modal-konten" onclick="event.stopPropagation()">
+            <div class="modal-tape"></div>
+            <span class="modal-sticker-left">🌸</span>
+            <span class="modal-sticker-right">✨</span>
+            <span class="tombol-tutup" onclick="tutupFoto()">&times;</span>
+            <img id="gambarModal" src="" alt="Foto Anggota">
+            <h3 id="namaModal"></h3>
+            <p id="zodiakModal" class="modal-zodiak"></p>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script>
+        const dataFoto = {
+            angel: {
+                nama: "Angel Kayla Tofani 👑",
+                zodiak: "♍ Zodiak: Virgo",
+                src: "angel.jpeg" /* File foto Angel baju hitam[cite: 1] */
+            },
+            gisela: {
+                nama: "Gisela Nindiyanika Kinantyasthi 🦋",
+                zodiak: "♉ Zodiak: Taurus",
+                src: "nindy1.jpeg" /* File foto Nindy baju pink[cite: 2] */
+            }
+        };
+
+        function bukaFoto(anggota) {
+            const modal = document.getElementById("modalFoto");
+            const gambar = document.getElementById("gambarModal");
+            const teksNama = document.getElementById("namaModal");
+            const teksZodiak = document.getElementById("zodiakModal");
+
+            gambar.src = dataFoto[anggota].src;
+            teksNama.innerText = dataFoto[anggota].nama;
+            teksZodiak.innerText = dataFoto[anggota].zodiak;
+            modal.style.display = "flex";
+        }
+
+        function tutupFoto() {
+            document.getElementById("modalFoto").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
